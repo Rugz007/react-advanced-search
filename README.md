@@ -1,46 +1,31 @@
-# Getting Started with Create React App
+<p align="center" width="100%"><img align="center" src="https://i.imgur.com/txakcLQ.png" alt="logo" width="80">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+</p>
 
-In the project directory, you can run:
+<div align="center">
 
-### `yarn start`
+![License: MIT](https://img.shields.io/badge/License-MIT-success)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+</div>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+# React Search Pro
+A WIP react library for building a sophisticated search component with filter tags, recent searches and auto-suggest. 
 
-### `yarn test`
+## Key Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+ - **Easy to use:** Seamless filter searching, auto suggest implementation
+ - **Full controlled:** Uses zustand for state management. 
+ - **Hooks and Utils:** Developers can use different hooks to manipulate the component state and behaviour
+ - **Full customizable:** Developers can write their own styles to achieve the look they want for their application
+ - **Reliable:** Written in Typescript
 
-### `yarn build`
+## Installation 
+Package is yet to be published
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Development
+1. Clone the repo and use `yarn install` to install all the dependencies
+2. Use `yarn start` to start the dev server.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+## License
+React Search Pro is [MIT Licensed](https://github.com/Rugz007/react-search-pro/blob/master/LICENSE)
