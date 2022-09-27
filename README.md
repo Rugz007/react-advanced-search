@@ -21,7 +21,9 @@ A WIP react library for building a sophisticated search component with filter ta
  - **Reliable:** Written in Typescript
 
 ## Installation 
-Package is yet to be published
+Use npm or yarn to install:
+
+    npm i react-search-pro
 
 ## Development
 1. Clone the repo and use `yarn install` to install all the dependencies
