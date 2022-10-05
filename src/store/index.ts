@@ -3,6 +3,7 @@ import { createStore, useStore } from "zustand";
 import initialState from "./initialState";
 
 export const createSearchStore = () => {
+  //@ts-ignore
   return createStore((set, get) => ({
     ...initialState,
     setTags: (tags: TagInterface[]) => set({ tags }),
