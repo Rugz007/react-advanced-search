@@ -1,5 +1,5 @@
 import { createSearchStore, StoreContext } from "../store";
-
+import React from 'react'
 const SearchProvider = (props: any) => {
   const store = createSearchStore();
   return (

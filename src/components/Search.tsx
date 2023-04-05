@@ -23,7 +23,7 @@ const Searchbar: React.FC<SearchbarProps> = ({
   const { tags, suggestions, value, setTags, setValue, setSuggestions } =
     useSearchStore((state) => state);
   const getTagComponent = () => {
-    const tempTags = tags.map((tag) => {
+    const tempTags = tags.map((tag : TagInterface) => {
       const tagType = tagTypes.find((tagType) => tagType.kind === tag.kind);
       if (tagType && tagType.tagComponent) {
         return (
@@ -64,7 +64,7 @@ const Searchbar: React.FC<SearchbarProps> = ({
     }
     if (
       suggestionState.activeTagType !== "" &&
-      !value.split("").some((ele) => {
+      !value.split("").some((ele : string) => {
         return suggestionState.tagTypePrefixes.includes(ele);
       })
     ) {
@@ -137,7 +137,7 @@ const Searchbar: React.FC<SearchbarProps> = ({
       </div>
       {suggestionState.suggestionVisible && (
         <div style={{ borderStyle: "solid" }}>
-          {suggestions.map((suggestion) => {
+          {suggestions.map((suggestion : SuggestionInterface) => {
             return (
               <button
                 key={suggestion.value}
